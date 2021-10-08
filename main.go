@@ -4,11 +4,11 @@
 // FileData: 8/10/2564 7:37 2564  FileName : main.go
 // ---------------------------------------------------------------------------
 
-package algorithmId
+package main
 
 import "fmt"
 
 func main() {
-
-	fmt.Println("hello algorithmId")
+	//id:= core.ID()
+	fmt.Println("a")
 }
