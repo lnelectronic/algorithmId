@@ -4,14 +4,14 @@
 // FileData: 8/10/2564 7:05 2564  FileName : algorithm.go
 // ---------------------------------------------------------------------------
 
-package core
+package algorithmln
 
 import (
 	"errors"
 	"time"
 )
 
-// These constants are the bit lengths of lnalgorithm ID parts.
+// bit lengths of lnalgorithm ID .
 const (
 	TimestampLength = 41
 	MachineIDLength = 10
@@ -24,7 +24,7 @@ const (
 	timestampMoveLength = MachineIDLength + SequenceLength
 )
 
-//   AtomicResolver : base sync/atomic (by default).
+// SequenceResolver AtomicResolver : base sync/atomic (by default).
 type SequenceResolver func(ms int64) (uint16, error)
 
 // default machineID is 0

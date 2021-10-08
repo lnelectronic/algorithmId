@@ -4,7 +4,7 @@
 // FileData: 8/10/2564 7:33 2564  FileName : automic_resolver.go
 // ---------------------------------------------------------------------------
 
-package core
+package algorithmln
 
 import "sync/atomic"
 

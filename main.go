@@ -6,9 +6,15 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/lnelectronic/algorithmId/algorithmln"
+)
 
 func main() {
-	//id:= core.ID()
-	fmt.Println("a")
+	ln_id := algorithmln.ID()
+
+	fmt.Println("----------ID uint64-------------")
+	fmt.Println(ln_id)
+	fmt.Println("--------------------------------")
 }

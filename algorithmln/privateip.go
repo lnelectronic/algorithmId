@@ -4,7 +4,7 @@
 // FileData: 8/10/2564 7:31 2564  FileName : privateip.go
 // ---------------------------------------------------------------------------
 
-package core
+package algorithmln
 
 import (
 	"errors"
@@ -12,7 +12,6 @@ import (
 )
 
 // PrivateIPToMachineID convert private ip to machine id.
-// From https://github.com/sony/sonyflake/blob/master/sonyflake.go
 func PrivateIPToMachineID() uint16 {
 	ip, err := lower16BitPrivateIP()
 	if err != nil {
